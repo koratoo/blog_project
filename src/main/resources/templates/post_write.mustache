@@ -1,0 +1,30 @@
+{{>common/header}}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('https://codepresso-online-platform-public.s3.ap-northeast-2.amazonaws.com/java-web/home-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>Write your post</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Post Content-->
+<article class="mb-4" style="min-height: 400px">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center border-bottom pb-5">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <input type="text" id="post-title" class="edit mb-2" style="height: 30px;"  placeholder="글 제목을 입력하세요"/>
+                <input type="text" id="post-username" class="edit mb-2" style="height: 30px;"  placeholder="사용자 이름을 입력하세요"/>
+                <textarea class="edit" name="" id="post-content" cols="30" rows="10" placeholder="글 본문을 입력하세요"></textarea>
+                <div class="comment_btn">
+                    <button id="create_button">등록</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</article>
+{{>common/footer}}

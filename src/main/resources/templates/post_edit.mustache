@@ -1,0 +1,30 @@
+{{>common/header}}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('https://codepresso-online-platform-public.s3.ap-northeast-2.amazonaws.com/java-web/home-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>Edit your post</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Post Content-->
+<article class="mb-4" style="min-height: 400px">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center border-bottom pb-5">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <input type="text" id="edit-post-title" class="edit mb-2" style="height: 30px;"  value="{{post.title}}"/>
+                <textarea class="edit" name="" id="edit-post-content" cols="30" rows="10">{{post.content}}</textarea>
+                <input type="hidden" id="edit-post-id" value="{{post.id}}" />
+                <div class="comment_btn">
+                    <button id="edit_button">수정</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</article>
+{{>common/footer}}

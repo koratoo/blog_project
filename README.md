@@ -5,7 +5,7 @@
 IntelliJ Community
 
 ## 사용 기술
-Java, SpringBoot, mybatis, Ajax, mustache, Gradle
+Java, SpringBoot, mybatis, Ajax, mustache, Maven
 
 ## 사용 DB
 MySQL
@@ -13,7 +13,8 @@ MySQL
 ## 일정
 
 11/11 ~ 11/15 : CRU 기능까지 완성 <br>
-에러사항 : Update부분의 에러를 해결하는데 오래걸렸음.<br><br>
+에러사항 : Update부분의 에러를 해결하는데 오래걸렸음.<br>
+변경사항 : H2->MySQL로 설정 변경<br><br>
 
 11/16 : Delete API(백엔드) 정상 작동 확인(Postman으로 호출)<br>
 11/17 : 화면 구현(프론트) 에러<br>

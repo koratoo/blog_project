@@ -3,5 +3,8 @@
 ## 사용 IDE
 IntelliJ Community
 
-## 사용언어
-mustache
+## 사용 기술
+Java, SpringBoot, Ajax, mustache
+
+## 사용 DB
+MySQL
